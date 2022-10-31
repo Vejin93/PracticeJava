@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.List;
 
 public class Student {
 
@@ -6,14 +7,17 @@ public class Student {
 
     private String studentId;
 
-    private Course[] courses;
+    private int numberOfCourses;
+
+    private List<Course> courses;
 
     public Student() {
     }
 
-    public Student(String name, String studentId, Course[] courses) {
+    public Student(String name, String studentId, int numberOfCourses, List<Course> courses) {
         this.name = name;
         this.studentId = studentId;
+        this.numberOfCourses = numberOfCourses;
         this.courses = courses;
     }
 
@@ -33,11 +37,19 @@ public class Student {
         this.studentId = studentId;
     }
 
-    public Course[] getCourses() {
+    public int getNumberOfCourses() {
+        return numberOfCourses;
+    }
+
+    public void setNumberOfCourses(int numberOfCourses) {
+        this.numberOfCourses = numberOfCourses;
+    }
+
+    public List<Course> getCourses() {
         return courses;
     }
 
-    public void setCourses(Course[] courses) {
+    public void setCourses(List<Course> courses) {
         this.courses = courses;
     }
 
@@ -46,7 +58,8 @@ public class Student {
         return "Student{" +
                 "name='" + name + '\'' +
                 ", studentId='" + studentId + '\'' +
-                ", courses=" + Arrays.toString(courses) +
+                ", numberOfCourses=" + numberOfCourses +
+                ", courses=" + courses +
                 '}';
     }
 }

@@ -1,20 +1,10 @@
 public class Course {
-    private String nameCourse;
     private int grade;
 
     public Course(){}
 
-    public Course(String nameCourse, int grade) {
-        this.nameCourse = nameCourse;
+    public Course(int grade) {
         this.grade = grade;
-    }
-
-    public String getNameCourse() {
-        return nameCourse;
-    }
-
-    public void setNameCourse(String nameCourse) {
-        this.nameCourse = nameCourse;
     }
 
     public int getGrade() {
@@ -28,8 +18,7 @@ public class Course {
     @Override
     public String toString() {
         return "Course{" +
-                "nameCourse='" + nameCourse + '\'' +
-                ", grade='" + grade + '\'' +
+                "grade=" + grade +
                 '}';
     }
 }
