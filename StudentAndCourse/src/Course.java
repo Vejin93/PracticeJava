@@ -1,10 +1,10 @@
 public class Course {
     private String nameCourse;
-    private String grade;
+    private int grade;
 
     public Course(){}
 
-    public Course(String nameCourse, String grade) {
+    public Course(String nameCourse, int grade) {
         this.nameCourse = nameCourse;
         this.grade = grade;
     }
@@ -17,11 +17,11 @@ public class Course {
         this.nameCourse = nameCourse;
     }
 
-    public String getGrade() {
+    public int getGrade() {
         return grade;
     }
 
-    public void setGrade(String grade) {
+    public void setGrade(int grade) {
         this.grade = grade;
     }
 
