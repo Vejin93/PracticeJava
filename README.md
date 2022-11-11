@@ -19,6 +19,6 @@ the class Assistant has the identification number, year of birth, number of clas
 the class Laborant has the identification number, year of birth, number of classes during the week and the identification number superior assistant. 
 It is necessary to enter the data of at least one professor, two assistants and two laboratory assistants from the standard input.
 
-1) It is necessary to print the average number of years of faculty staff on the output.
+	a) It is necessary to print the average number of years of faculty staff on the output.
 
-2) It is necessary to write the total number of hours for all staff of the faculty together.
+	b) It is necessary to write the total number of hours for all staff of the faculty together.
