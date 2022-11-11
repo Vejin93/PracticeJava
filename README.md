@@ -12,3 +12,13 @@ standard entry. For each student, on the standard output, write how many courses
 
 4. SortAndDifferentNumbers - 
 Entry of elements from standard input in non-descending order (N>=6). Find all elements of the array that do not appear and print them in descending order.
+
+5. Faculty - 
+We have three classes: Professor, Assistant and Laborant. The class Professor has the fields identification number, year of birth and number of classes during the week,
+the class Assistant has the identification number, year of birth, number of classes during the week and the identification number of the superior professor, 
+the class Laborant has the identification number, year of birth, number of classes during the week and the identification number superior assistant. 
+It is necessary to enter the data of at least one professor, two assistants and two laboratory assistants from the standard input.
+
+1) It is necessary to print the average number of years of faculty staff on the output.
+
+2) It is necessary to write the total number of hours for all staff of the faculty together.
